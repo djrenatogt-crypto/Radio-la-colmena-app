@@ -1,0 +1,160 @@
+{
+  "config": {
+    "name": "Radio La Colmena",
+    "motto": "Endulzando tu vida",
+    "streamUrl": "https://vivo.miradio.in/8178/stream",
+    "fallbackStreamUrl": "https://vivo.miradio.in:8178/;",
+    "logoUrl": "/official_poster.jpg",
+    "description": "Emisora online oficial de Radio La Colmena con transmisión 24 horas continuas desde Amatitlán, Guatemala. Música variada, alegría, segmentos especiales y la mejor compañía para endulzar tus días.",
+    "location": "Amatitlán, Guatemala",
+    "phone": "+502 5127-3046",
+    "whatsapp": "+50251273046",
+    "website": "https://www.radiolacolmena.com",
+    "playStoreUrl": "https://play.google.com/store/apps/details?id=radio.la.colmena",
+    "email": "contacto@radiolacolmena.com",
+    "audioQuality": "128 kbps MP3 · 44.1 kHz Estéreo"
+  },
+  "auth": {
+    "salt": "e6f8a2c19b0d3e5f7a1c8e2b",
+    "hash": "98caa62a9a632d37406b7dcfd0a43acdaa132191686dc6a1df0bea44b5c63055e736fa142511f3fc289841912aab42bf7a41b1c8598bfec0bad66ea2e1ccca12"
+  },
+  "segments": [
+    {
+      "id": "seg_1",
+      "title": "El Café de las Mañanas",
+      "host": "Ana García & Luis Morales",
+      "description": "Tu despertar musical, notas positivas, clima y la mejor selección para arrancar el día con dulzura y energía positiva.",
+      "days": [
+        "Lunes",
+        "Martes",
+        "Miércoles",
+        "Jueves",
+        "Viernes"
+      ],
+      "timeStart": "07:00",
+      "timeEnd": "10:00",
+      "posterUrl": "/src/assets/images/poster_cafe_mananas_1793069769104.jpg",
+      "externalLink": "https://wa.me/50251273046",
+      "status": "active",
+      "order": 1
+    },
+    {
+      "id": "seg_2",
+      "title": "Ritmo Juvenil & Tendencias",
+      "host": "DJ Colmena",
+      "description": "Los mayores éxitos del pop latino, reggaetón, dance y música urbana que suena en todas las plataformas globales.",
+      "days": [
+        "Lunes",
+        "Martes",
+        "Miércoles",
+        "Jueves",
+        "Viernes"
+      ],
+      "timeStart": "16:00",
+      "timeEnd": "18:00",
+      "posterUrl": "/src/assets/images/poster_ritmo_urbano_1793069770951.jpg",
+      "externalLink": "https://play.google.com/store/apps/details?id=radio.la.colmena",
+      "status": "active",
+      "order": 2
+    },
+    {
+      "id": "seg_3",
+      "title": "La Colmena Tropical & Cumbia",
+      "host": "DJ Renato Morales",
+      "description": "El mejor sabor de la cumbia, salsa y merengue bailable para alegrar las tardes y poner a bailar a toda la audiencia.",
+      "days": [
+        "Lunes",
+        "Martes",
+        "Miércoles",
+        "Jueves",
+        "Viernes"
+      ],
+      "timeStart": "18:00",
+      "timeEnd": "21:00",
+      "posterUrl": "/src/assets/images/poster_colmena_tropical_1793069770644.jpg",
+      "externalLink": "https://wa.me/50251273046",
+      "status": "upcoming",
+      "order": 3
+    },
+    {
+      "id": "seg_4",
+      "title": "Noches de Miel & Recuerdos",
+      "host": "Cadena Nocturna",
+      "description": "Baladas románticas en español, boleros, recuerdos dorados y las canciones que enamoran bajo la tranquilidad de la noche.",
+      "days": [
+        "Lunes",
+        "Martes",
+        "Miércoles",
+        "Jueves",
+        "Viernes",
+        "Sábado",
+        "Domingo"
+      ],
+      "timeStart": "22:00",
+      "timeEnd": "01:00",
+      "posterUrl": "/src/assets/images/poster_noches_miel_1793069770410.jpg",
+      "externalLink": "https://www.facebook.com/share/1F559sTg3X/",
+      "status": "active",
+      "order": 4
+    }
+  ],
+  "socials": [
+    {
+      "id": "soc_wa",
+      "platform": "whatsapp",
+      "label": "WhatsApp Oficial",
+      "url": "https://wa.me/50251273046",
+      "enabled": true,
+      "order": 1
+    },
+    {
+      "id": "soc_fb",
+      "platform": "facebook",
+      "label": "Facebook Oficial",
+      "url": "https://www.facebook.com/share/1F559sTg3X/",
+      "enabled": true,
+      "order": 2
+    },
+    {
+      "id": "soc_gp",
+      "platform": "googleplay",
+      "label": "App en Google Play",
+      "url": "https://play.google.com/store/apps/details?id=radio.la.colmena",
+      "enabled": true,
+      "order": 3
+    },
+    {
+      "id": "soc_web",
+      "platform": "web",
+      "label": "Sitio Web Oficial",
+      "url": "https://www.radiolacolmena.com",
+      "enabled": true,
+      "order": 4
+    },
+    {
+      "id": "soc_ig",
+      "platform": "instagram",
+      "label": "Instagram",
+      "url": "https://instagram.com/radiolacolmena",
+      "enabled": true,
+      "order": 5
+    },
+    {
+      "id": "soc_yt",
+      "platform": "youtube",
+      "label": "YouTube",
+      "url": "https://youtube.com/@radiolacolmena",
+      "enabled": true,
+      "order": 6
+    },
+    {
+      "id": "soc_tk",
+      "platform": "tiktok",
+      "label": "TikTok",
+      "url": "https://tiktok.com/@radiolacolmena",
+      "enabled": true,
+      "order": 7
+    }
+  ],
+  "messages": []
+}

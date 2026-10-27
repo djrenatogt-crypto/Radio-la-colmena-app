@@ -1,0 +1,8 @@
+{
+  "name": "Radio La Colmena",
+  "description": "Aplicación oficial de Radio La Colmena - Endulzando tu vida. Transmisión en vivo 24/7, programas, carteles promocionales y contacto directo.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
